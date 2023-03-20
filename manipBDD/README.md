@@ -14,7 +14,7 @@ La gestion de la base de donnée est fait via des classes, pour l'utiliser vous 
 <?php
 require_once "bdd.php";
 
-class ManipulationBDD
+class ManipulationCompte
 {
 
 }
