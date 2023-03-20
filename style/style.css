@@ -1,0 +1,276 @@
+/*----------DESIGN PAGE----------*/
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------NAV BAR----------*/
+.navbar {
+    background: #C2FF78;
+    position: absolute;
+    left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+    margin-right: 30px;
+    background: #8ec549;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    padding: 1rem;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+}
+
+.navbar .nav-links ul li a.active {
+    color: #FC466B;
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    width: 35px;
+    display: none;
+}
+
+.container {
+    display: block;
+    align-content: center;
+    height: 100%;
+    margin-top: 125px;
+}
+
+/*-------------INDEX-------------*/
+
+.presentation {
+    height: auto;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pensions p {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.box-pension {
+    background-color: #12A7E0;
+    height: auto;
+    text-align: center;
+    width: 26%;
+    padding: 1rem;
+    margin : 10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+
+/*-------------LOGIN-------------*/
+.login {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.login form {
+    padding: 3rem;
+    background: #12A7E0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px gray;
+    height: 320px;
+}
+
+.login .loginElement {
+    margin-top: 20px;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+
+
+.login input[type="text"], .login input[type="password"] {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.login input[type='submit'] {
+    margin: 10px;
+    background: #8ec549;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    padding: 1rem;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+}
+
+.login input[type="submit"]:hover {
+    
+    cursor: pointer;
+}
+
+
+/*-------------FOOTER-------------*/
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #8ec549;
+
+}
+
+.affiliees img {
+    width: 75px;
+    height: 75px;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -200px;
+}
+
+.navbar-bis {
+    background: #C2FF78;
+    position: absolute;
+    left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-bis a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-bis .nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-bis .nav-links ul li {
+    margin: 0 25px;
+    margin-right: 30px;
+    background: #8ec549;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    padding: 1rem;
+    box-shadow: 4px 4px 60px rgb(0 0 0 / 20%);
+}
+
+.navbar-bis .nav-links ul li a.active {
+    color: #FC466B;
+    font-weight: 600;
+}
+
+.compte {
+    position: absolute;
+    top: 400px;
+}
+
+.affichagePension { 
+    position: absolute;
+    top: 300px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    min-width: 20px;
+    width: max-content;
+    border: 1px solid black;
+    padding: 10px;
+}
+thead {
+    background: gray;
+    border: 1px solid black;
+    margin: 0px;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.formAddCompte {
+    position: absolute;
+    top: 350px
+}
